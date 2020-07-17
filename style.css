@@ -1,0 +1,117 @@
+body {
+	color: black;
+	background-image:url(img/bgv2.jpg);
+	background-size: cover;
+	background background-attachment: fixed;
+}
+
+.navbar {
+	background-color: #f3f3f3;
+	min-height: 55px;
+
+}
+
+.navbar-nav {
+    position: absolute;
+    left: 50%;
+   	transform: translatex(-50%);
+}
+
+@keyframes resumeIcon {
+	from {color: #f3f3f3;}
+	to {color: #33ffd6;}
+}
+
+.resumeIcon {
+	animation-name: resumeIcon;
+	animation-duration: 5s;
+	color: #33ffd6;
+	font-size: 2.5em
+}
+
+@keyframes githubIcon {
+	from {color: #f3f3f3;}
+	to {color: #8000ff;}
+}
+
+.githubIcon {
+	animation-name: githubIcon;
+	animation-duration: 5s;
+	color: #8000ff;
+	font-size: 2.5em
+}
+
+@keyframes linkedinIcon {
+	from {color: #f3f3f3;}
+	to {color: #3366cc;}
+}
+
+.linkedinIcon {
+	animation-name: linkedinIcon;
+	animation-duration: 5s;
+	color: #3366cc;
+	font-size: 2.5em;
+}
+
+@keyframes instagramIcon {
+	from {color: #f3f3f3;}
+	to {color: #ff66d9;}
+}
+
+.instagramIcon {
+	animation-name: instagramIcon;
+	animation-duration: 5s;
+	color: #ff66d9;
+	font-size: 2.5em
+}
+
+.resumeIcon:hover,
+.githubIcon:hover,
+.linkedinIcon:hover,
+.instagramIcon:hover {
+	color:#d5d5d5;
+}
+
+.header {
+	animation-duration:5s;
+	text-align: center;
+	padding-bottom: 5rem;
+	padding-top: 3rem
+}
+
+.pfp {
+	display: block;
+	width: 327px;
+	height: 347px;
+	margin-left: auto;
+  	margin-right: auto;
+  	padding-bottom: 2rem;
+}
+
+.contactForm {
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-size:15px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

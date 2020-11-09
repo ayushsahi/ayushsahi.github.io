@@ -19,13 +19,13 @@ body {
 
 @keyframes devpostIcon {
 	from {color: #f3f3f3;}
-	to {color: darkgreen;}
+	to {color: #083E54;}
 }
 
 .devpostIcon {
 	animation-name: devpostIcon;
 	animation-duration: 5s;
-	color: darkgreen;
+	color: #083E54;
 	font-size: 2.5em
 }
 
@@ -69,7 +69,7 @@ body {
 .githubIcon:hover,
 .linkedinIcon:hover,
 .instagramIcon:hover,
-.devpost {
+.devpostIcon:hover {
 	color:#d5d5d5;
 }
 

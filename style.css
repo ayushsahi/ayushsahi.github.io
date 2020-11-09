@@ -2,19 +2,7 @@ body {
 	color: black;
 	background-image:url(bgv2.jpg);
 	background-size: cover;
-	background background-attachment: fixed;
-}
-
-.navbar {
-	background-color: #f3f3f3;
-	min-height: 55px;
-
-}
-
-.navbar-nav {
-    position: absolute;
-    left: 50%;
-   	transform: translatex(-50%);
+	background-attachment: fixed;
 }
 
 @keyframes resumeIcon {
@@ -26,6 +14,18 @@ body {
 	animation-name: resumeIcon;
 	animation-duration: 5s;
 	color: #33ffd6;
+	font-size: 2.5em
+}
+
+@keyframes devpostIcon {
+	from {color: #f3f3f3;}
+	to {color: darkgreen;}
+}
+
+.devpostIcon {
+	animation-name: devpostIcon;
+	animation-duration: 5s;
+	color: darkgreen;
 	font-size: 2.5em
 }
 
@@ -68,7 +68,8 @@ body {
 .resumeIcon:hover,
 .githubIcon:hover,
 .linkedinIcon:hover,
-.instagramIcon:hover {
+.instagramIcon:hover,
+.devpost {
 	color:#d5d5d5;
 }
 

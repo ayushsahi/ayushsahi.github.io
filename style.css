@@ -7,13 +7,13 @@ body {
 
 @keyframes resumeIcon {
 	from {color: #f3f3f3;}
-	to {color: #33ffd6;}
+	to {color: black;}
 }
 
 .resumeIcon {
 	animation-name: resumeIcon;
 	animation-duration: 5s;
-	color: #33ffd6;
+	color: black;
 	font-size: 2.5em
 }
 

@@ -59,7 +59,7 @@
 <div class="container">
   <div class="row header animate__animated animate__jello">
     <div class="col-xl-12">
-      <img src="pfp.jpg" class="pfp img-responsive img-fluid" alt="profile pic" >
+      <img src="assets/pfp.jpg" class="pfp img-responsive img-fluid" alt="profile pic" >
     </div>
     <div class="col-xl-12">
       <h1>Ayush Sahi</h1>
@@ -72,35 +72,49 @@
 <!-- Cards -->
 <div class="container-fluid cards">
 <div class="row">
-  <div class="col-md-4">
+  <div class="col-md-4 d-flex align-items-stretch">
     <div class="card">
       <img class="card-img-top">
       <div class="card-body">
+        <img src="assets/pp-logo.png" class="pp-logo img-responsive img-fluid" alt="meat monitor" >
+        <br>
         <h4 class="card-title">Premier Prophet</h4>
-        <p>Predicts the outcome of future soccer games in the Premier League using a custom machine learning model. Made with HTML and Python and uses Flask, TensorFlow, and Heroku. 2nd Place at NewHacks 2020.</p>
-        <a href="https://premierprophet.herokuapp.com/" class="btn btn-outline-secondary">View Project</a>
+        <p><strong>2nd Place Winner @ NewHacks 2020</strong></p>
+        <p>Using a multitude of imported datasets, a custom machine learnning model was developed to 
+        predict the outcome of future soccer games in the Premier League. Backend was developed in Python using numpy, pandas, 
+        and TensorFlow, while the Frontend was made with HTML and Boostrap 4 CSS.</p>
+        <a href="https://premierprophet.herokuapp.com/" class="btn btn-outline-secondary">Use Project</a>
         <a href="https://devpost.com/software/premier-prophet?ref_content=user-portfolio&ref_feature=in_progress" class="btn btn-outline-secondary">View DevPost</a>
+        <a href="https://www.youtube.com/watch?v=s6nWfkj2tHc&feature=emb_logo&ab_channel=AyushSahi" class="btn btn-outline-secondary">View Demo</a>
       </div>
     </div>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-4 d-flex align-items-stretch">
     <div class="card">
       <img class="card-img-top">
       <div class="card-body">
-        <h4 class="card-title">To Meat Or Not To Meat?</h4>
-        <p>Advises users based on their specific situation on whether they should become vegetarian due to their diet’s environmental impact. Made using python and uses numpy, pandas, tkinter, and plotly.</p>
-        <a href="#" class="btn btn-outline-secondary">View Project</a> 
-        <a href="#" class="btn btn-outline-secondary">View Repository</a> 
+        <img src="assets/mm-logo.png" class="mm-logo img-responsive img-fluid" alt="premier prophet" >
+        <br>
+        <h4 class="card-title">Meat Monitor</h4>
+        <p>Collaborated with peers to develop a complex algorithm that calculates a user's CO2 impact based on their meat consumption per week using 
+        object oriented programming in Python and modules such as numpy, pandas, and matplotlib. Used tkinter to develop a GUI for user's to calculate a new diet with a more 
+        environmentally friendly impact, while providing relevant information, and statistical analysis on climate change and global warming. 
+        </p>
+        <a class="btn btn-outline-secondary" href="assets/meat-monitor.zip" download="meat-monitor.zip">Use Project</a>
+        <a href="https://github.com/ayushsahi/meat_monitor" class="btn btn-outline-secondary">View Repository</a> 
+        <a href="https://www.youtube.com/watch?v=aF2UQYgltVU&ab_channel=AyushSahi" class="btn btn-outline-secondary">View Demo</a>
       </div>
     </div>
   </div>
-    <div class="col-md-4">
+    <div class="col-md-4 d-flex align-items-stretch">
     <div class="card">
       <img class="card-img-top">
       <div class="card-body">
+        <img src="assets/beast-logo.png" class="pp-logo img-responsive img-fluid" alt="beast" >
+        <br>
         <h4 class="card-title">The "Beast"</h4>
         <p>Created a microcontroller car, with a complementary Android app controller. Used C++ to program an Arduino and it’s accompanying motors, LEDs, and speaker to perform various user controlled actions.</p>
-        <a href="https://youtu.be/kMer3EvOiqM" class="btn btn-outline-secondary">View Project</a>
+        <a href="https://youtu.be/kMer3EvOiqM" class="btn btn-outline-secondary">View Demo</a>
         <a href="https://github.com/ayushsahi/arduino_car" class="btn btn-outline-secondary">View Repository</a>
       </div>
     </div>
@@ -108,33 +122,35 @@
 </div>
 </div>
 
-<!-- Footer -->
 <br>
 <br>
 <br>
-<footer>
-  <div class="container contactForm">
-    <div class="row">
-      <div class="col-xl-8 contactText">
-        <h3>Contact Me!</h3>
-        <p>If you ever want to contact me, feel free to do so through either this form, or at:</p>
 
-        <p>ayush.sahi@mail.utoronto.ca</p>
-        <p>Tel: 647-545-1632</p>
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-xl-6">
+        <h6>About Me</h6>
+        <p class="text-justify">Hello! I am an aspiring full stack engineer at the University of Toronto pursuing BSc Computer Science Specialist 
+        with a Focus in Artificial Intelligence. I am very experienced in python and HTML, as well as their associated technologies and frameworks, 
+        such as TensorFlow, Bootstrap 4, Flask, and many more. I have participated in many Hackathons over the years like Hack the North and New Hacks, 
+        where I won 2nd place, and have even hosted my own Hackathon at Abbey Park High School in 2018 and 2019. My hobbies include
+        playing and following basketball, listening to music and playing the piano. You can contact me at:</p>
+        <a href="ayush.sahi@mail.utoronto.ca">ayush.sahi@mail.utoronto.ca</a>
+        <br>
+        <br>
+        <p>Or feel free to send me a message here, and I can reach out to you in the method of your choosing. Cheers!</p>
       </div>
-      <div class="col-xl-4">
-      <!-- Form -->
+      <div class="col-xs-12 col-xl-6 contact">
         <form action="https://formspree.io/myynnkno" method="POST" class="submissionForm">
-          <label> Your email: 
+          <p>Please enter your email here to contact me!</p>
+          <input class="email-box" type="text" name="_replyto">
           <br>
-          <input type="text" name="_replyto">
-          </label>
           <br>
-          <label> Your message:
+          <p>Please write your message to me here!</p>
+          <textarea class="message-box" name="message"></textarea>
           <br>
-          <textarea name="message"></textarea>
-          </label>
-          <!-- your other form fields go here -->
           <br>
           <button class="myButton"type="submit">Send</button>
         </form>
@@ -144,4 +160,3 @@
 </footer>
 </body>
 </html>
-
